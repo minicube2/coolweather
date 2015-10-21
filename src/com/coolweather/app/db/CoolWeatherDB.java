@@ -121,7 +121,7 @@ public class CoolWeatherDB {
 	 * 将Country实例存储到数据库中
 	 * @param country ：Country对象
 	 */
-	public void saveCity(Country country) {
+	public void saveCountry(Country country) {
 		if (null != country) {
 			ContentValues values = new ContentValues();
 			values.put("country_name", country.getCountryName());
